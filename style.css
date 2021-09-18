@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del nombre pricipal de la pagina */
+/*.nombrePrincipal {
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+}
+
+/* Estilo del Nav */
+
+header{
+    font-family: 'Barlow Condensed', sans-serif;
+    width: auto;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu li>a{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 50px;
+    border-radius: 100px;
+    margin: 3px;
+}
+
+#menu li>a:hover{
+    color: white;
+    background-color: rgb(201, 201, 201);
+}
+
+#menu>li{
+    float: left;
+    text-align: center;
+}
+
+#menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+
+/*----------------Pagina principal (index.html)------------------------*/
+
+/* Estilo para resumen de la pagina principal */
+.resumen {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: right;
+}
+
+
+/*---------------------Pagina de Productos-----------------------------*/
+
+/* Estilo del div de productos */
+.divProd {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/*-------------------------Pagina Sobre Nosostros-------------------------*/
+
+
+
+/*----------Pagina individual de cada producto (Producto 1)----------------*/
+
+
