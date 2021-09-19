@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 /* Estilo del nombre pricipal de la pagina */
-/*.nombrePrincipal {
+.nombrePrincipal {
     font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
     text-align: left;
+    color: white;
+    margin-left: 10px;
 }
 
 /* Estilo del Nav */
@@ -14,22 +21,22 @@
 header{
     font-family: 'Barlow Condensed', sans-serif;
     width: auto;
+    height: 29px;
     margin: auto;
+    background-color: #ff1616;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 #menu li>a{
     background-color: gray;
     color: white;
-    padding: 10px;
+    padding: 5px;
     display: block;
     text-decoration: none;
     min-width: 50px;
-    border-radius: 100px;
-    margin: 3px;
 }
 
 #menu li>a:hover{
@@ -38,23 +45,33 @@ ul{
 }
 
 #menu>li{
-    float: left;
+    float: right;
     text-align: center;
 }
 
-#menu>li>ul{
-    display: none;
-  }
-  #menu>li:hover>ul {
-    display:block;
-  }
-
 /*----------------Pagina principal (index.html)------------------------*/
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+    float: left;
+}
+
+#descripcion {
+    margin: auto;
+    background-color: aqua;
+    margin-top: 50px;
+}
 
 /* Estilo para resumen de la pagina principal */
 .resumen {
     font-family: 'Barlow Condensed', sans-serif;
-    text-align: right;
+    font-size: larger;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
+    margin-left: 350px;
 }
 
 
