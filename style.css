@@ -23,7 +23,7 @@ header{
     width: auto;
     height: 29px;
     margin: auto;
-    background-color: #ff1616;
+    background-color: black;
 }
 
 ul {
@@ -31,7 +31,7 @@ ul {
 }
 
 #menu li>a{
-    background-color: gray;
+    background-color: black;
     color: white;
     padding: 5px;
     display: block;
