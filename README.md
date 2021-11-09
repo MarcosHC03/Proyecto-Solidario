@@ -10,4 +10,4 @@ Se podra personalizar tanto imagenes como secciones, tanto colores como estilos,
 Toda las imagenes que quiera usar deberan estar en la misma ubicación donde se encuantren los archivos "index.html" y "styles.css".
 
 # Este es un ejemplo que se puede coseguir con esto:
-![MuestraDeLaWeb](https://user-images.githubusercontent.com/82134147/135900771-819f337a-ce55-413a-9c32-acf46d78594a.jpg)
+![MuestraDeLaWeb](https://user-images.githubusercontent.com/82134147/140984176-56a353eb-c7dc-4890-8bb5-2acf7e464725.jpg)
