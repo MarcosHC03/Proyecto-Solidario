@@ -5,7 +5,7 @@
 }
 
 body {
-    /* Aquí se puede cambiar el patron del fondo de la pagina, para ver una previsualización o cambios o otros diseños puedes revisar la pagina "heropatterns.com" */
+    /* Aquí puede cambiar el fondo de la página */
     background: linear-gradient(0deg, #e08e45, #f8f4a6,  #bdf7b7, #3943b7);
     /* Color de las letras en general */
     color: #fff;
