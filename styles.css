@@ -89,7 +89,6 @@ ul {
     font-family: 'MuseoModerno', cursive;
     cursor: pointer;
     display: inline-block;
-    border: 0;
     font-weight: bold;
     padding: 10px 20px;
     /* Color de la letra */
@@ -97,13 +96,13 @@ ul {
     /* Tamaño de la letra */
     font-size: 16px;
     margin: 10px 0;
-    border-radius: 3.5px;
 }
 
 /* Efecto de los botones al pasar el mouse por encima */
 .btn:hover {
     /* Tamaño y color del borde*/
     outline: 1px solid #fff;
+    border-radius: 3.5px;
     /* color de la letra */
     color: #fff;
     transition: .5s;
@@ -128,11 +127,10 @@ ul {
     background: url(reparacionesJuan.jpg) no-repeat center center/cover;
     margin-top: 20px;
     padding: 15px;
-    padding-bottom: 50px;
+    padding-top: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
     /* Color de la letra */
     color: #fff;
     /* Redondeo del encabezado, puede sacarlo o aumentarlo */
@@ -168,13 +166,14 @@ ul {
 }
 
 .showcase h2{
+    text-align:center;
     margin-bottom: 10px;
     /* Tamaño de la letra */
     font-size: 40px;
 }
 
 .showcase p {
-    margin: px;
+    text-align:center;
     /* Tamaño de la letra */
     font-size: 20px;
 }
@@ -182,7 +181,7 @@ ul {
 /* Sobre Nosotros */
 #abaut-us {
     width: 100%;
-    height: 150px;
+    height: auto;
     /* Imagen de fondo */
     background: url(wall-abautUs.jpg) no-repeat center center/cover;
     margin-top: 20px;
@@ -203,6 +202,7 @@ ul {
 }
 
 #abaut-us h2 {
+    text-align:center;
     margin: 5px;
 }
 
@@ -278,4 +278,10 @@ ul {
     text-align: center;
     padding: 10px;
     color: #666;
+}
+
+@media (max-width: 551px){
+    .nav-main ul {
+    display: none;
+    }
 }
